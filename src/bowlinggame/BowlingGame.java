@@ -73,18 +73,6 @@ public class BowlingGame {
             /**
              * Logic to update score.
              */
-            //if (prevTwoFramesStrike) {
-            //    score = score + firstRoll + 20;
-            //    if (!thisFrameStrike) {
-            //        score = score + firstRoll + secondRoll + 10;
-            //    }
-            //} else if (prevFrameSpare) {
-            //    score = score + firstRoll + 10;
-            //} else if (prevFrameStrike) {
-            //    score = score + firstRoll + secondRoll + 10;
-            //} else if (!thisFrameStrike && !thisFrameSpare) {
-            //    score = score + firstRoll + secondRoll;
-            //}
             if (prevTwoFramesStrike) {
                 if (thisFrameStrike) {
                     score += 30;
